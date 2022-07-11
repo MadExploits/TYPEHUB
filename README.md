@@ -1,4 +1,4 @@
-# typehub
+# typeHUB
 typehub EXPLOIT CVE 2021-25094
 
 * My Website [link](https://bangexploit.my.id)
@@ -7,3 +7,4 @@ typehub EXPLOIT CVE 2021-25094
 # Module Installing
 
 pip install requests
+pip install termcolor
