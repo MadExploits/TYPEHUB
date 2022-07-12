@@ -1,4 +1,3 @@
-from cProfile import run
 from os import popen
 import requests as a
 from termcolor import colored as color
