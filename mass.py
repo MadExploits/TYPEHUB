@@ -27,7 +27,7 @@ with open(LIST, "r") as w:
         try:
             r = a.get(
                 "{}/wp-content/uploads/typehub/custom/mad_expl/.mad.phtml".format(x), verify=False)
-            if r.status_code == 200 or "File Uploader Private" == r.text:
+            if r.status_code == 200 and "File Uploader Private" == r.text:
                 print("{}/wp-content/uploads/typehub/custom/mad_expl/.mad.phtml => {}".format(
                     x, color("[200]", "green")))
             elif r.status_code == 403:
